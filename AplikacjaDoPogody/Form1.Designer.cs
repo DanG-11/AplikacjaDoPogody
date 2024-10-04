@@ -54,7 +54,9 @@
             // 
             // TmrPogoda
             // 
-            TmrPogoda.Interval = 900;
+            TmrPogoda.Enabled = true;
+            TmrPogoda.Interval = 90000;
+            TmrPogoda.Tick += TmrPogoda_Tick;
             // 
             // Form1
             // 

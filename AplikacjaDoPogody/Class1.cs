@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace AplikacjaDoPogody
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class Hourly
     {
-        public List<string> time { get; set; }
-        public List<double> temperature_2m { get; set; }
-        public List<int> relative_humidity_2m { get; set; }
-        public List<double> rain { get; set; }
+        public string time { get; set; }
+        public double temperature_2m { get; set; }
+        public int relative_humidity_2m { get; set; }
+        public double rain { get; set; }
     }
 
     public class HourlyUnits
@@ -32,7 +31,7 @@ namespace AplikacjaDoPogody
         public string timezone { get; set; }
         public string timezone_abbreviation { get; set; }
         public double elevation { get; set; }
-        public HourlyUnits hourly_units { get; set; }
-        public Hourly hourly { get; set; }
+        public HourlyUnits current_units { get; set; }
+        public Hourly current { get; set; }
     }
 }
