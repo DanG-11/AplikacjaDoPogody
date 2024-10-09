@@ -50,7 +50,7 @@
             BtnPokazPogode.Name = "BtnPokazPogode";
             BtnPokazPogode.Size = new Size(569, 23);
             BtnPokazPogode.TabIndex = 1;
-            BtnPokazPogode.Text = "Wyświetl pogodę teraz";
+            BtnPokazPogode.Text = "Aktualizuj pogodę teraz";
             BtnPokazPogode.UseVisualStyleBackColor = true;
             BtnPokazPogode.Click += BtnPokazPogode_Click;
             // 
